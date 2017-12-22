@@ -1,0 +1,2 @@
+# httpry version 0.1.7
+# Fields: timestamp,source-ip,dest-ip,direction,method,host,request-uri,http-version,status-code,reason-phrase

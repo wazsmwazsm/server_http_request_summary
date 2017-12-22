@@ -12,3 +12,15 @@ Ubuntu : apt-get install httpry
 
 通过 httpry 实时统计服务器的 http 请求信息, 每 24 小时生成一个 summary log,
 包括 URL、IP、状态码等访问频次统计
+
+## 使用
+
+```
+bash check.sh ( 需 root 权限, 可加 & 扔到后台执行 )
+```
+
+如果是 ssh 终端, 防止终端掉线后任务停止可以如下命令执行
+
+```
+nohup bash check.sh &
+```

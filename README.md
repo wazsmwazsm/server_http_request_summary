@@ -15,12 +15,12 @@ Ubuntu : apt-get install httpry
 
 ## 使用
 
-```
-bash check.sh ( 需 root 权限, 可加 & 扔到后台执行 )
+```Shell
+bash check.sh  # ( 需 root 权限, 可加 & 扔到后台执行 )
 ```
 
 如果是 ssh 终端, 防止终端掉线后任务停止可以如下命令执行
 
-```
+```Shell
 nohup bash check.sh &
 ```
